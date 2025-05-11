@@ -1,0 +1,12 @@
+sentence-transformers==4.1.0
+pinecone == 6.0.2
+langchain == 0.3.24
+flask
+langchain_community
+langchain_groq
+pypdf
+langchain_pinecone
+langchain_huggingface
+-e. # this so when we install these packages our local package gets installed
+# and when running it will create Medical_Chat_bot.egg-info,you can check your
+# packages now using pip ls
